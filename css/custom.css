@@ -1,0 +1,25 @@
+/* Playful small tweaks for Maya Pei's OS */
+.mp-lang-toggle {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 9999;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg,#7bd389,#6bb6ff);
+  color: #0b1320;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.md-header-nav__title {
+  /* small playful tweak to header font color */
+  color: #2b2b7a;
+}
+
+/* make page headings a little larger and friendly */
+.md-content h1 {
+  font-size: 2.2rem;
+}
