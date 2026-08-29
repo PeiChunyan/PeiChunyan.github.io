@@ -18,6 +18,13 @@ nav:
       - 04 写作: zh/writing.md
       - 05 生活日志: zh/life-journal.md
       - 99 评审: zh/reviews.md
+  - Suomi:
+      - 01 Järjestelmät: fi/systems.md
+      - 02 Pääoma: fi/capital.md
+      - 03 Yritys-AI: fi/enterprise-ai.md
+      - 04 Kirjoittaminen: fi/writing.md
+      - 05 Elämänpäiväkirja: fi/life-journal.md
+      - 99 Arvostelut: fi/reviews.md
 
 theme:
   name: "material"
