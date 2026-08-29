@@ -32,3 +32,10 @@
 /* Sidebar brand replacement */
 .md-nav__title .md-nav__button.md-logo svg{display:none!important;}
 .md-nav__title{visibility:visible;}
+/* Language display modes: both (default), en, zh */
+[data-lang-mode='both'] .lang-en, [data-lang-mode='both'] .lang-zh { display: block; }
+[data-lang-mode='en'] .lang-en { display:block; } [data-lang-mode='en'] .lang-zh { display:none; }
+[data-lang-mode='zh'] .lang-zh { display:block; } [data-lang-mode='zh'] .lang-en { display:none; }
+
+.lang-en { margin-bottom: 0.5rem; }
+.lang-zh { color: #555; margin-bottom: 1rem; }

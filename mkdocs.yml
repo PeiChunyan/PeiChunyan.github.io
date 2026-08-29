@@ -5,26 +5,12 @@ repo_url: "https://github.com/PeiChunyan/PeiChunyan.github.io"
 
 nav:
   - Home: index.md
-  - 01 Systems: en/systems.md
-  - 02 Capital: en/capital.md
-  - 03 Enterprise AI: en/enterprise-ai.md
-  - 04 Writing: en/writing.md
-  - 05 LifeJournal: en/life-journal.md
-  - 99 Reviews: en/reviews.md
-  - 中文:
-      - 01 世界如何运作: zh/systems.md
-      - 02 资本: zh/capital.md
-      - 03 企业级AI: zh/enterprise-ai.md
-      - 04 写作: zh/writing.md
-      - 05 生活日志: zh/life-journal.md
-      - 99 评审: zh/reviews.md
-  - Suomi:
-      - 01 Järjestelmät: fi/systems.md
-      - 02 Pääoma: fi/capital.md
-      - 03 Yritys-AI: fi/enterprise-ai.md
-      - 04 Kirjoittaminen: fi/writing.md
-      - 05 Elämänpäiväkirja: fi/life-journal.md
-      - 99 Arvostelut: fi/reviews.md
+  - 01 Systems / 世界如何运作: systems.md
+  - 02 Capital / 资本: capital.md
+  - 03 Enterprise AI / 企业级AI: enterprise-ai.md
+  - 04 Writing / 写作: writing.md
+  - 05 LifeJournal / 生活日志: life-journal.md
+  - 99 Reviews / 评审: reviews.md
 
 theme:
   name: "material"
