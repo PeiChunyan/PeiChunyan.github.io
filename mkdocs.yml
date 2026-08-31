@@ -5,12 +5,10 @@ repo_url: "https://github.com/PeiChunyan/PeiChunyan.github.io"
 
 nav:
   - Home: index.md
-  - 01 Systems / 世界如何运作: systems.md
-  - 02 Capital / 资本: capital.md
-  - 03 Enterprise AI / 企业级AI: enterprise-ai.md
-  - 04 Writing / 写作: writing.md
-  - 05 LifeJournal / 生活日志: life-journal.md
-  - 99 Reviews / 评审: reviews.md
+  - Systems: systems.md
+  - Capital: capital.md
+  - Build: build.md
+  - Journal: journal.md
 
 theme:
   name: "material"
