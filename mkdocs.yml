@@ -1,0 +1,30 @@
+﻿site_name: MAYA PORTFOLIO
+site_description: "Portfolio and knowledge base — English & 中文"
+repo_name: PeiChunyan/PeiChunyan.github.io
+
+nav:
+  - Home: index.md
+  - "01 Systems / 世界如何运作": systems.md
+  - "02 Capital / 资本": capital.md
+  - "03 Build / 我创造什么": build.md
+  - "04 Journal / 我学到了什么": journal.md
+
+theme:
+  name: material
+  logo: images/logo.svg
+  favicon: images/logo.svg
+  palette:
+    primary: indigo
+    accent: deep-orange
+
+extra_css:
+  - css/custom.css
+extra_javascript:
+  - js/lang-toggle.js
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7bd389"/>
+      <stop offset="100%" stop-color="#6bb6ff"/>
+    </linearGradient>
+  </defs>
+  <rect rx="28" ry="28" width="240" height="240" fill="url(#g)" />
+  <g transform="translate(120,120)">
+    <circle r="56" fill="#fff" opacity="0.06" />
+    <text x="0" y="-6" font-family="Segoe UI, Roboto, Arial" font-weight="700" font-size="28" fill="#081229" text-anchor="middle">MAYA</text>
+    <text x="0" y="24" font-family="Segoe UI, Roboto, Arial" font-weight="700" font-size="18" fill="#081229" text-anchor="middle">PEI'S OS</text>
+    <text x="0" y="48" font-family="Noto Sans SC, Microsoft YaHei, Arial" font-size="12" fill="#081229" text-anchor="middle">玛雅操作系统</text>
+  </g>
+</svg>
