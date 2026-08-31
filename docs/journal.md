@@ -10,8 +10,3 @@ Overview: Observations, reflections, lessons and experiments.
 
 ---
 
-## Topics / 主题
-
-- Daily notes / 每日记录
-- Lessons learned / 学到的教训
-- Experiments and outcomes / 实验与结果

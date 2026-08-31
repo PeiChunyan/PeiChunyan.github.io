@@ -7,8 +7,3 @@ Understanding people, organizations, power, incentives and growth.
 
 ---
 
-## Topics / 主题
-
-- Systems diagrams / 系统图
-- Feedback and dynamics / 反馈与动态
-- Case studies / 案例研究

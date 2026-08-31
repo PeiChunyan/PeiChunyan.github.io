@@ -7,7 +7,3 @@ Wealth, investing, life bets, career bets and compounding.
 
 ---
 
-## Topics / 主题
-
-- Capital allocation / 资本配置
-- Frameworks / 框架
