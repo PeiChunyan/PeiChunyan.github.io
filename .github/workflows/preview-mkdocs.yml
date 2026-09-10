@@ -1,14 +1,15 @@
-name: Deploy MkDocs to GitHub Pages
+name: Preview MkDocs build
 
 on:
   push:
     branches:
-      - master
-      - temp
-      - peichunyan-fantastic-goggles
+      - 'temp/**'
+      - 'temp'
+  pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
-  build-and-deploy:
+  build-preview:
     runs-on: ubuntu-latest
 
     steps:
@@ -29,13 +30,9 @@ jobs:
         run: |
           mkdocs build --clean
 
-      - name: Configure GitHub Pages
-              uses: actions/configure-pages@v3
-
-            - name: Upload Pages artifact
-              uses: actions/upload-pages-artifact@v1
-              with:
-                path: ./site
-
-            - name: Deploy to GitHub Pages
-              uses: actions/deploy-pages@v1
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-site
+          path: ./site
+          retention-days: 7
