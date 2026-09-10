@@ -10,7 +10,7 @@ Overview: Observations, reflections, lessons and experiments.
 
 ---
 
-## Workplace skills assessment / 职场能力评估
+## Personal Growth Radar In Career / 个人职场成长雷达
 
 Below is a compact self-assessment of core workplace skills — scores, strengths, weaknesses, and short guidance.
 
