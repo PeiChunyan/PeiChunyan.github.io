@@ -39,3 +39,30 @@
 
 .lang-en { margin-bottom: 0.5rem; }
 .lang-zh { color: #555; margin-bottom: 1rem; }
+
+/* Collapsible TOC toggle */
+.mp-toc-collapse-toggle {
+  position: fixed;
+  left: 12px;
+  top: 84px;
+  z-index: 9999;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: linear-gradient(135deg,#ffd97a,#ffb56b);
+  color: #091029;
+  font-weight:700;
+  cursor:pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* When TOC is collapsed hide the page/local TOC containers */
+.md-nav__toc.collapsed,
+.md-content__toc.collapsed,
+.toc.collapsed {
+  display: none !important;
+}
+
+/* Small screen: show toggle by default */
+@media (max-width: 960px) {
+  .mp-toc-collapse-toggle { display: block; }
+}
