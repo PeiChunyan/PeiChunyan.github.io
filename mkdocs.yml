@@ -22,6 +22,7 @@ extra_css:
 extra_javascript:
   - js/lang-toggle.js
   - js/toc-toggle.js
+  - js/sidebar-toggle.js
 
 plugins:
   - search
