@@ -66,3 +66,35 @@
 @media (max-width: 960px) {
   .mp-toc-collapse-toggle { display: block; }
 }
+
+/* Sidebar collapse / expand */
+.mp-sidebar-toggle {
+  position: fixed;
+  left: 12px;
+  top: 140px;
+  z-index: 9999;
+  padding: 6px 8px;
+  border-radius: 8px;
+  background: linear-gradient(135deg,#e0f7ff,#bfe9ff);
+  color: #05233a;
+  font-weight:700;
+  cursor:pointer;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* When body has collapsed-sidebar class, hide sidebar and expand content */
+body.mp-sidebar-collapsed .md-sidebar {
+  transform: translateX(-280px) !important; /* push it out of view */
+  width: 0 !important;
+  opacity: 0.0;
+  pointer-events: none;
+}
+
+body.mp-sidebar-collapsed .md-main {
+  margin-left: 0 !important;
+}
+
+/* small screens: default collapsed */
+@media (max-width: 960px) {
+  body:not(.mp-sidebar-collapsed) .mp-sidebar-toggle { display: block; }
+}
