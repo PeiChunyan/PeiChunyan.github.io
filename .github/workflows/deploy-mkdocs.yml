@@ -7,6 +7,12 @@ on:
       - temp
       - peichunyan-fantastic-goggles
 
+# Permissions required for Pages deployment and OIDC
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
